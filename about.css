@@ -39,8 +39,6 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: gray;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     color: white;
 }
@@ -64,12 +62,11 @@ footer {
 header {
     height: 100vh;
     color: black;
-    font-size: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background: linear-gradient(120deg,brgb(255, 0, 0);color: rgb(255, 0, 0);
+    background: linear-gradient(120deg,rgb(255, 0, 0));color: rgb(255, 0, 0);
 }
 .products {
     display: flex;
@@ -103,3 +100,16 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1 )
 
 }
+
+main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h1, h2 {
+    color: #66c0f4;
+  }
+  a {
+    color: #66c0f4;
+    text-decoration: none;
+  }
