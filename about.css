@@ -106,10 +106,10 @@ main {
     max-width: 900px;
     margin: auto;
   }
-  h1, h2 {
+h1, h2 {
     color: #66c0f4;
   }
-  a {
+a {
     color: #66c0f4;
     text-decoration: none;
   }
